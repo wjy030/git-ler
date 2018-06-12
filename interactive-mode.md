@@ -33,17 +33,22 @@
 
 * patch
   >选中的文件会依次展示其变更，并提供如下一些命令来使用
-  - y - stage this hunk
-  - n - do not stage this hunk
-  - q - quit; do not stage this hunk or any of the remaining ones
-  - a - stage this hunk and all later hunks in the file
-  - d - do not stage this hunk or any of the later hunks in the file
-  - g - select a hunk to go to
-  - / - search for a hunk matching the given regex
-  - j - leave this hunk undecided, see next undecided hunk
-  - J - leave this hunk undecided, see next hunk
-  - k - leave this hunk undecided, see previous undecided hunk
-  - K - leave this hunk undecided, see previous hunk
-  - s - split the current hunk into smaller hunks
-  - e - manually edit the current hunk
-  - ? - print help
+  - y - 暂存当前
+  - n - 不暂存当前
+  - q - 直接退出，之前执行过的命令都无效
+  - a - 暂存当前和之后所有
+  - d - 不暂存当前和之后所有
+  - / - 寻找符合通配的变更文件，会要求输入通配
+  - j - 延迟作决定，选择下一个未作决定的变更文件
+  - J - 延迟作决定，选择下一个变更文件
+  - k - 延迟作决定，选择上一个未作决定的变更文件
+  - K - 选择上一个变更文件
+  - s - 拆分当前变更为多个更小的变更
+  - e - 手工编辑当前变更
+  - ? - 打印帮助信息
+* diff
+  >展示选中文件的变更内容，操作方式类似于update，revert
+* help
+  >打印帮助信息
+* quit
+  >退出

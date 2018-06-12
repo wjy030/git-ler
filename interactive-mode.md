@@ -26,24 +26,24 @@
   >之后输入空命令（直接回车）被选中的文件会被加入暂存区
 
 * revert
->可以将选中的文件退回到HEAD版本。操作方式类似于update
+  >可以将选中的文件退回到HEAD版本。操作方式类似于update
 
 * add untracked
->可以将新文件加入到暂存区。操作方式类似于update，revert
+  >可以将新文件加入到暂存区。操作方式类似于update，revert
 
 * patch
->选中的文件会依次展示其变更，并提供如下一些命令来使用
-- y - stage this hunk
-- n - do not stage this hunk
-- q - quit; do not stage this hunk or any of the remaining ones
-- a - stage this hunk and all later hunks in the file
-- d - do not stage this hunk or any of the later hunks in the file
-- g - select a hunk to go to
-- / - search for a hunk matching the given regex
-- j - leave this hunk undecided, see next undecided hunk
-- J - leave this hunk undecided, see next hunk
-- k - leave this hunk undecided, see previous undecided hunk
-- K - leave this hunk undecided, see previous hunk
-- s - split the current hunk into smaller hunks
-- e - manually edit the current hunk
-- ? - print help
+  >选中的文件会依次展示其变更，并提供如下一些命令来使用
+  - y - stage this hunk
+  - n - do not stage this hunk
+  - q - quit; do not stage this hunk or any of the remaining ones
+  - a - stage this hunk and all later hunks in the file
+  - d - do not stage this hunk or any of the later hunks in the file
+  - g - select a hunk to go to
+  - / - search for a hunk matching the given regex
+  - j - leave this hunk undecided, see next undecided hunk
+  - J - leave this hunk undecided, see next hunk
+  - k - leave this hunk undecided, see previous undecided hunk
+  - K - leave this hunk undecided, see previous hunk
+  - s - split the current hunk into smaller hunks
+  - e - manually edit the current hunk
+  - ? - print help

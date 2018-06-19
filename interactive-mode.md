@@ -10,14 +10,14 @@
 * status
   > 查看版本库、暂存区、工作空间之间的变化
 
-  >sample:![status](status.png)
+  >sample:![status](transattach/status.png)
 
   >根据图示，readme.txt版本库和暂存区之间是一致的，暂存区和工作空间之间有区别
 
 * update
   > 进入如下命令窗口：
 
-  >![update](update.png)
+  >![update](transattach/update.png)
 
   >可以输入指定行号用以选中，输入形式可以是 1 2,3 3-5 7-
   >

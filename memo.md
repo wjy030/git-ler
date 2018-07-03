@@ -58,3 +58,33 @@ git ci == git commit
 	ci = commit
 ## 存储凭证
 git config --global credential.helper wincred
+
+
+## 支持协议
+### 本地协议  
+#### 克隆本地仓库  
+git clone /c/aaa.git  
+#### 克隆本地仓库(不建议使用file://)  
+git clone file:///c/aaa.git  
+#### 添加远程仓库的链接  
+git remote add origin /c/aaa.git  
+### git协议  
+#### 克隆远程仓库  
+git clone git://server_ip/test.git  
+#### 添加远程仓库的链接  
+git remote add origin git://server_ip/test.git  
+### http协议
+#### 克隆远程仓库
+git clone htts://github.com/wjy030/test.git  
+#### 添加远程仓库的链接
+git remote add origin htts://github.com/wjy030/test.git  
+### ssh协议
+#### 克隆远程仓库，一般写成简短的命令
+git clone ssh://git@github.com/wjy030/test.git  
+git clone git@github.com:wjy030/test.git  
+#### 添加远程仓库的链接  
+git remote add origin git@github.com:wjy030/test.git  
+#### 生成RSA密钥对  
+ssh-Keygen -t rsa -C "castiel0416@hotmail.com"  
+#### 在Github网站添加公钥  
+使用SSH协议，克隆仓库或者添加远程链接  

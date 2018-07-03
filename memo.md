@@ -35,17 +35,17 @@ git push [remote] [branch]  推送到远程仓库分支
 git pull [remote] [branch]  从远程仓库分支拉取  
 git clone [remote] 克隆远程仓库到本地  
 ## 一些注意点
-.gitignore
-	每行忽略一个或一类文件，可以使用globbing通配符
-换行符
-warning: LF will be replaced by CRLF in .gitignore.
-The file will have its original line endings in your working directory.
-#CR:carriage return 回车，光标到首行，'\r'=return
-#LF:line feed换行，光标下移一行，'\n'=newline
-#linux:换行\n
-#windows:换行\r\n
-#MAC OS:换行\r
-#提交时转换为LF,检出时转换为CRLF,默认设置不用修改,Git是linux配置
-git config --global core.autocrlf true
-#允许提交混合换行符的文件
-git config --global core.safecrlf false
+### .gitignore  
+	每行忽略一个或一类文件，可以使用globbing通配符  
+### 换行符  
+warning: LF will be replaced by CRLF in .gitignore.  
+The file will have its original line endings in your working directory.  
+#CR:carriage return 回车，光标到首行，'\r'=return  
+#LF:line feed换行，光标下移一行，'\n'=newline  
+#linux:换行\n  
+#windows:换行\r\n  
+#MAC OS:换行\r  
+#提交时转换为LF,检出时转换为CRLF,默认设置不用修改,Git是linux配置  
+git config --global core.autocrlf true  
+#允许提交混合换行符的文件  
+git config --global core.safecrlf false  

@@ -17,3 +17,20 @@ git config --list
 git config --global user.name "wjy030"  
 git config --global user.email "castiel0416@hotmail.com"  
 git log  
+## git常用命令
+git init 新建git仓库  
+git clone [url] 克隆远程仓库  
+git add [file1] [file2] 添加文件到暂存区  
+git add . 添加所有文件到暂存区  
+git rm [file1] [file2] 删除文件，并将这次删除提交到暂存区  
+git mv [file-origin] [file-renamed] 改名文件，并将这次改名提交到暂存区  
+git commit-m [message] 提交暂存区  
+git commit -a -m [message] 直接提交工作区  
+git status 显示变更信息  
+git log  显示分支的历史版本  
+git log --oneline  简洁版  
+git show [version] 显示指定版本的提交信息  
+git remote add origin https:/github.com/wjy030/hello 关连到远程仓库  
+git push [remote] [branch]  推送到远程仓库分支  
+git pull [remote] [branch]  从远程仓库分支拉取  
+git clone [remote] 克隆远程仓库到本地  

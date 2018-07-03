@@ -6,6 +6,10 @@ mkdir  创建目录
 cp 复制文件  
 pwd 显示路径  
 rm 删除文件  
+ctrl+l 清屏  
+ctrl+c 命令行终结  
+\ 换行  
+vim vim编辑模式
 ## 设置git参数  
 ### 显示当前的git配置  
 git config --list  

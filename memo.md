@@ -49,3 +49,12 @@ The file will have its original line endings in your working directory.
 git config --global core.autocrlf true  
 #允许提交混合换行符的文件  
 git config --global core.safecrlf false  
+## 设置别名
+git config --global alias.ci commit
+设置后
+git ci == git commit
+也可以直接在对应目录的.gitconfig目录直接修改
+[alias]
+	ci = commit
+## 存储凭证
+git config --global credential.helper wincred
